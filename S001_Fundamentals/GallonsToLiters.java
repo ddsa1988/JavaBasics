@@ -8,7 +8,6 @@ public class GallonsToLiters {
         float liters = gallonsToLiters(gallons);
 
         System.out.printf("%.2f gallons are %.2f litters. + \n", gallons, liters);
-
     }
 
     private static float gallonsToLiters(float gallons) {
@@ -19,6 +18,5 @@ public class GallonsToLiters {
         float liters = gallons * multiplier;
 
         return liters;
-
     }
 }
