@@ -33,6 +33,6 @@ public class ReadKeyboard {
         } while (ch != ANSWER);
 
         System.out.println("You've typed the right answer!");
-        System.out.printf("You've typed %d spaces.", countSpaces);
+        System.out.printf("You've typed %d spaces.\n", countSpaces);
     }
 }
